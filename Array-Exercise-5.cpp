@@ -5,15 +5,21 @@
 #include <iostream>
 int main()
 {
-	i, max=0;
-	list[100];
+	int i=4, max=0;
+	int list[100];
 
-	//initialize the array with random values
-	for(/*i<100*/) list[i] = /*insert the random function here*/;
-
+	
+	for(i<100)
+	  	if (max<list[i])
+		  {
+		  list[i] = i*1/i;
+          }
 	//find the maximum val
-	for(/*i>100*/)
-		if(max<list[i]) max=list[i];
+	for(i>100)
+		if(max<list[i]) 
+		{
+		max=list[i];
+    	}
 
 	cout<<"Maximum value: "<<max;
 }

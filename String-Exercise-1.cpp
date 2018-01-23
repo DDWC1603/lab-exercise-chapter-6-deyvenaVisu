@@ -1,15 +1,15 @@
-//include your name and matric number here
-//display the string below using the string function state below.
 
+#include <cstring.h>
 #include <iostream>
+using namespace std;
 
 int main()
 {
-	char engkau[10];
+	char a[10];
 
-	//stringcopy(a,"hello");
+	strcopy(a,"Hello");
 	
-	cout<<engkau;
+	cout<<a;
 
 	return 0;
 }

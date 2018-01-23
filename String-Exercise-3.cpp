@@ -1,22 +1,22 @@
-//use the string compare function to compare input string with the setup string
-//make a check with the string password(if else)
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
 	char strPswd[80];
 
 	cout<<"Enter password: ";
-	//get the strPswd
+	gets (str);
 	
-	//make an if else that check the password(strPswd)
-	//(string compare function (strPswd,"Check")) 
+	if(strcmp(strPswd,"password"))
+	{
 		
-		cout<<"invalid password "<<endl;
+		 cout<<"invalid password "<<endl;
 	
 	 
-		cout<<"Logged in "<<endl;
+	else cout<<"Logged in "<<endl;
+}
+
 
 	
 
